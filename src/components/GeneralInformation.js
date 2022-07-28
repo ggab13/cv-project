@@ -7,7 +7,7 @@ class GeneralInformation extends Component {
     this.state = {
       firstName: 'Gabor',
       lastName: 'Guban',
-      phoneNumber: '06203158113',
+      phoneNumber: '06201234567',
       email: 'example@gmail.com',
     };
 
