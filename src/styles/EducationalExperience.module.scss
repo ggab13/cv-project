@@ -1,0 +1,53 @@
+.educational-form__edit{
+  background-color: #3a6055;
+  form {  
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px;
+    
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin: 0em auto;
+    max-width: 800px;
+    padding: 1em;
+    color: #CD4F1A;
+    font-weight: bold;
+
+    div{
+      background-color: grey;
+    }
+
+    label {
+      grid-column: 1 / 2;
+    }
+   
+    input,
+    button {
+      grid-column: 2 / 3;
+      
+    }
+    input{
+      border-radius: 5px;
+      height: 25px;
+    }
+    button {
+      background-color:#3A6055
+      ;
+      height: 30px;
+      width: 200px;
+      margin: 0 auto;
+      color: white;
+      ;
+      font-size: 1.3em;
+    }
+    button:hover{
+      opacity: 0.8;
+      color:#eb5413;
+    }
+  }
+}
+.educational-form__view{
+  h2{    
+    border: 3px solid black;
+  }
+}
